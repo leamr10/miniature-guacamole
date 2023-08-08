@@ -5,9 +5,11 @@ const About = () => {
         <div className="container">
             <div className="row">
                 <div className="col-md-4">
-                    <img src="./images/mitchellpicture.png" alt="Picture of Mitchell Lea"/>
+                    <img src={require(`../images/mitchellpicture.png`)} alt="Picture of Mitchell Lea"/>
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
+
+export default About;
